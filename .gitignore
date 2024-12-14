@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment folders
+env/
+venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python environment files
+*.env
+*.venv
+
+# Unnecessary build files
+build/
+dist/
+*.egg-info/
+
+# Specific to your project
+src/modules/__pycache__/
+src/main/__pycache__/
+
+# toonify-project
+toonify-project/
