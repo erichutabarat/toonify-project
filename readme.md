@@ -1,15 +1,9 @@
 # Toonify Project
-Toonify adalah filter berbasis kamera yang mengubah tampilan wajah pengguna menjadi gaya kartun yang unik. Dengan memanfaatkan OpeCV dan MediaPipe, filter ini mendeteksi wajah dan menciptakan efek kartun halus dengan garis tepi yang tajam dan warna yang lembut. Mudah digunakan, cepat, dan memberikan pengalaman layaknya filter media sosial populer.
+Toonify is a camera-based filter that changes the appearance of the user's face into a unique cartoon style. Leveraging OpeCV and MediaPipe, this filter detects faces and creates a subtle cartoon effect with sharp outlines and soft colors. It's easy to use, fast, and provides an experience like popular social media filters.
 
 ## Member
 - Eric Daniel Hutabarat (121140204)
 - Farhan Rizky Gunawan (121140200)
-
-## Logbook Mingguan
-| Week | Kegiatan | Gambar  |
-|------------|------------|------------|
-| 1 | Kegiatan 1 | Gambar |
-| 2 | Kegiatan 2 | Gambar |
 
 ## Installation
 Follow this steps to use Toonify.
@@ -53,3 +47,20 @@ To run the application and test the cartoon effect, execute the following comman
 python app.py
 ```
 This will start the application and process video frames in real-time with the cartoon effect and background removal.
+
+
+## Tested on
+
+This project has been tested and developed using the following:
+
+### Python Version:
+- Python 3.12.4
+
+### Operating Systems:
+- Windows 11
+
+### IDE/Editor:
+- Visual Studio Code (VSCode)
+
+
+This project has been tested on the above configurations to ensure compatibility. Other environments may work but are not officially supported at this time.
