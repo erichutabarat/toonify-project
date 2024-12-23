@@ -3,7 +3,7 @@ import cv2
 from PyQt5.QtWidgets import QMainWindow, QLabel, QVBoxLayout, QWidget, QPushButton
 from PyQt5.QtCore import QTimer
 from PyQt5.QtGui import QImage, QPixmap
-from cartoon_filter import cartoonize_frame  # Ensure cartoon_filter exists and is implemented
+from utils.cartoon_filter import cartoonize_frame
 
 
 class CameraApp(QMainWindow):
