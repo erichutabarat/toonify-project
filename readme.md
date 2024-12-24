@@ -1,13 +1,22 @@
 # Toonify Project
 Toonify is a camera-based filter that changes the appearance of the user's face into a unique cartoon style. Leveraging OpeCV and MediaPipe, this filter detects faces and creates a subtle cartoon effect with sharp outlines and soft colors. It's easy to use, fast, and provides an experience like popular social media filters.
 
-# Contributor Data
+## Contributor Data
 
 | Name            | NIM          | GitHub Profile                  |
 |------------------|--------------|----------------------------------|
 | Eric Daniel Hutabarat         | 121140204   | [erichutabarat](https://github.com/erichutabarat) |
 | Farhan Rizky Gunawan       | 121140200   | [farhan-121140200](https://github.com/farhan-121140200) |
 
+## Logbook
+
+| ID  | Subject                 | Date       |
+|-----|-------------------------|------------|
+| 1   | Setup Project         | Dec 6, 2024 |
+| 2   | Add Camera Module        | Dec 14, 2024 |
+| 3   | Add Cartoonize Function        | Dec 23, 2024 |
+| 4   | Fixing Cartoonize Function Issue      | Dec 23, 2024 |
+| 5   | Finishing      | Dec 24, 2024 |
 
 ## Installation
 Follow this steps to use Toonify.
