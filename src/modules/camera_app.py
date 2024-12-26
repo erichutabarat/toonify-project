@@ -1,4 +1,4 @@
-# Updated camerapp.py
+# Updated camerapp.py with increased button height
 import cv2
 from PyQt5.QtWidgets import QMainWindow, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
 from PyQt5.QtCore import QTimer, Qt
@@ -20,7 +20,8 @@ class CameraApp(QMainWindow):
 
         # Filter button
         self.filter_button = QPushButton("Start Filtering", self)
-        self.filter_button.setMinimumHeight(40)
+        self.filter_button.setMinimumHeight(60)  # Increased height
+        self.filter_button.setStyleSheet("font-size: 16px; padding: 10px;")  # Add styling for better visibility
         self.filter_button.clicked.connect(self.toggle_filtering)
 
         # Layouts
